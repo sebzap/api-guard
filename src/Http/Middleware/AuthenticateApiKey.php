@@ -55,8 +55,8 @@ class AuthenticateApiKey
     {
         return response([
             'error' => [
-                'code'      => '401',
-                'http_code' => 'GEN-UNAUTHORIZED',
+                'code'      => 'GEN-UNAUTHORIZED',
+                'http_code' => '401',
                 'message'   => 'Unauthorized.',
             ],
         ], 401);
